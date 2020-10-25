@@ -347,8 +347,8 @@ li.move-right{
     font-size: 2.5rem;
     margin: 1.5rem 0 2rem;
     text-transform: uppercase;
-    color: palevioletred;
     text-align: center;
+    color: palevioletred;
 }
 
 .php-post_isi{
@@ -363,9 +363,18 @@ li.move-right{
     color: red;
 }
 
+.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: wheat;
+    padding: 2rem;
+    position: relative;
+}
+
 @media screen and (max-width: 1068px) {
     .php-post_php {
         max-width: 80rem;
+        text-align: center;
     }
 
     .php-post_img{
@@ -377,6 +386,7 @@ li.move-right{
 @media screen and (max-width: 868px) {
     .php-post_php {
       max-width: 70rem;
+      text-align: center;
     }
 
 }
@@ -385,6 +395,7 @@ li.move-right{
     .php-post_php {
         padding: 2.5rem;
         flex-direction: column;
+        text-align: center;
     }
 
     .php-post_img {

@@ -52,22 +52,22 @@
                             <a href="#integer">Data Integer</a>
                         </li>
                         <li>
-                            <a href="#array">Data Array</a>
+                            <a href="#">Data Array</a>
                         </li>
                         <li>
-                            <a href="#var_dump">Fungsi var dump</a>
+                            <a href="#">Fungsi var dump</a>
                         </li>
                         <li>
-                            <a href="#aritmatika">Aritmatika</a>
+                            <a href="#">Aritmatika</a>
                         </li>
                         <li>
-                            <a href="#string">String</a>
+                            <a href="#">String</a>
                         </li>
                         <li>
                             <a href="#">Logika</a>
                         </li>
                         <li>
-                            <a href="#perbandingan">Perbandingan</a>
+                            <a href="#">Perbandingan</a>
                         </li>
                     </ul>
                 </li>
@@ -139,12 +139,12 @@
         <p class="php-post_isi"> Berikut ini adalah hasil dari PHP Integer</p>
         <p class="php-post_coding">
             <?php $jenis_kelamin = 'L';
-        	$nama_lengkap = "Dewi Wardah";
-        	$umur = 23;
-        	$berat = 46;
-        	$tinggi = 157;
-        	$menikah = false;
-        	echo "Nama: $nama_lengkap<br>";echo "Jenis Kelamin: $jenis_kelamin<br>";echo "Umur: $umur tahun<br>";echo "berat badan: $berat kg<br>";echo "tinggi badan: $tinggi cm<br>";echo "menikah: $menikah";?>
+            $nama_lengkap = "Dewi Wardah";
+            $umur = 23;
+            $berat = 46;
+            $tinggi = 157;
+            $menikah = false;
+            echo "Nama: $nama_lengkap<br>";echo "Jenis Kelamin: $jenis_kelamin<br>";echo "Umur: $umur tahun<br>";echo "berat badan: $berat kg<br>";echo "tinggi badan: $tinggi cm<br>";echo "menikah: $menikah";?>
         </p>
     </div>
 </section>
@@ -158,8 +158,8 @@
         <p class="php-post_isi"> Berikut ini adalah hasil dari PHP Tipe Data Array</p>
         <p class="php-post_coding">
             <?php
-        	$nama = array(
-        	1=>"Dewi",
+            $nama = array(
+            1=>"Dewi",
             2=>"Wardah",
             3=>"Dona",
             4=>"Bima",
@@ -189,12 +189,12 @@
         <p class="php-post_coding">
             <?php $a= 5; $b= 8; $c= 4.5;
 
-        	$hasil1 = $a+$b;
-        	$hasil2 = $a+$c;
-        	$hasil3 = $a.$b;
+            $hasil1 = $a+$b;
+            $hasil2 = $a+$c;
+            $hasil3 = $a.$b;
 
-        	echo "$hasil1:"; var_dump($hasil1);
-        	echo "<br \>";
+            echo "$hasil1:"; var_dump($hasil1);
+            echo "<br \>";
             echo "$hasil2:"; var_dump($hasil2);
             echo "<br \>";
             echo "$hasil3:"; var_dump($hasil3);
@@ -229,10 +229,10 @@
         <p class="php-post_isi"> Berikut ini adalah hasil dari PHP String</p>
         <p class="php-post_coding">
             <?php
-        	$a = "Hello ";
-        	$hasil = "{$a} World!";
-        	echo $hasil;
-        	echo "<br />";
+            $a = "Hello ";
+            $hasil = "{$a} World!";
+            echo $hasil;
+            echo "<br />";
 
             $a = "belajar ";
             $b = "PHP ";
@@ -286,8 +286,8 @@
         <p class="php-post_isi"> Berikut ini adalah hasil dari PHP Operator Perbandingan</p>
         <p class="php-post_coding">
             <?php
-        	echo "1. 12 < 14 = "; var_dump(12<14);
-        	echo "<br />";
+            echo "1. 12 < 14 = "; var_dump(12<14);
+            echo "<br />";
 
             echo "2. 14 < 14 = "; var_dump(14<14);
             echo "<br />";
@@ -314,8 +314,8 @@
     </div>
 </section>
 <!--string ends-->
-<footer class="text-center py-5">
-    &copy; Akademi Komunitas Semen Indonesia Gresik 2020
+<footer class="copyright">
+    <h1> Akademi Komunitas Semen Indonesia Gresik 2020 </h1>
 </footer>
 <script src="scripts.js"></script>
 </body>
